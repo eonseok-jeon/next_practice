@@ -1,17 +1,17 @@
 import Link from 'next/link';
-import React from 'react';
+import { Fragment } from 'react';
 
 const HomePage = () => {
   return (
-    <React.Fragment>
-      <h1>This is Homepage</h1>
+    <Fragment>
+      <h1>The Home Page</h1>
       <ul>
         <li>
-          <Link href='/news/what-the-heck'>to detail page</Link>
+          <Link href='/news/wtf'>To Detail</Link>
         </li>
-        <li>you don&apos;t wanna click this</li>
+        <li>You don&apos;t wanna click this.</li>
       </ul>
-    </React.Fragment>
+    </Fragment>
   );
 };
 export default HomePage;
